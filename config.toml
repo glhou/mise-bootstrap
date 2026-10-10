@@ -1,0 +1,9 @@
+[bootstrap.mise_shell_activate]
+fish = true
+
+[bootstrap.packages]
+'brew:zellij' = 'latest'
+'brew:neovim' = 'latest'
+
+[env]
+_.path = ["/opt/homebrew/bin", "/home/linuxbrew/.linuxbrew/bin"]
