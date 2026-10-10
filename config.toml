@@ -10,6 +10,7 @@ fish = true
 
 [env]
 _.path = ["/opt/homebrew/bin", "/home/linuxbrew/.linuxbrew/bin"]
+EDITOR = "nvim"
 
 [tools]
 go = "1.25"
