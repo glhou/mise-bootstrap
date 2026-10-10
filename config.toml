@@ -8,6 +8,7 @@ fish = true
 'brew-cask:ghostty' = { os = ['macos']}
 'dnf:ghostty' = {os = ["linux"]}
 
+
 [env]
 _.path = ["/opt/homebrew/bin", "/home/linuxbrew/.linuxbrew/bin"]
 EDITOR = "nvim"
@@ -15,3 +16,7 @@ EDITOR = "nvim"
 [tools]
 go = "1.25"
 uv = "latest"
+rust-analyzer = "latest"
+npm = "latest"
+stylua = "latest"
+lua-language-server = "latest"
