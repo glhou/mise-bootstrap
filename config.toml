@@ -2,8 +2,15 @@
 fish = true
 
 [bootstrap.packages]
+'brew:fish' = 'latest'
 'brew:zellij' = 'latest'
 'brew:neovim' = 'latest'
+'brew-cask:ghostty' = { os = ['macos']}
+'dnf:ghostty' = {os = ["linux"]}
 
 [env]
 _.path = ["/opt/homebrew/bin", "/home/linuxbrew/.linuxbrew/bin"]
+
+[tools]
+go = "1.25"
+uv = "latest"
