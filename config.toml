@@ -8,6 +8,9 @@ fish = true
 'brew-cask:ghostty' = { os = ['macos']}
 'dnf:ghostty' = {os = ["linux"]}
 
+[bootstrap.repos]
+"~/.config/nvim" = { url = "git@github.com:glhou/kickstart.nvim.git", ref="master"}
+"~/.config/zellij" = { url = "git@github.com:glhou/zellij-config.git", ref="main"}
 
 [env]
 _.path = ["/opt/homebrew/bin", "/home/linuxbrew/.linuxbrew/bin"]
